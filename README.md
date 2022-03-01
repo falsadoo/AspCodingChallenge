@@ -17,15 +17,15 @@ For this project we need to create a Rest API with No views for our Command mode
         [Required]
         public string Platform { get; set; }
     }
-   We have also one controller with the all CRUD operation defined but not all is implemented.
+   We have also have one controller with the all CRUD operation defined but not all is implemented.
    **Requirements** 
    **MockCommanderRepo**
    In the project mock repository class we need to implement all the missing CRUD operations. 
    ** CommandsController**
-   In this controller we needs to we need to implement all the missing CRUD operations endpoints. Please make sure to handle users errors correctly.
+   In this controller we need to implement all the missing CRUD operations endpoints. Please make sure to handle users errors correctly.
    **Command Model / DTO Validation**
    We need to add the following validations rules:
  - **HowTo** need a min value of 4 characters and max value of 250 characters.
- - **Platform** will only have 4 characters. 
+ - **Platform** will only have 4 characters no more or less e.g. MSSP. 
 
 **Please clone this Repo and create a branch with your name**
